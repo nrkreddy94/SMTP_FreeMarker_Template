@@ -1,0 +1,140 @@
+table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td
+	{
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 0px solid #ddd;
+}
+
+.table>thead>tr>th {
+	vertical-align: bottom;
+	border-bottom: 0px solid #ddd;
+}
+
+.help_img {
+	width: 16px;
+	height: 16px;
+}
+
+.popover  p {
+	font-size: 13px;
+}
+
+#passwordrequirements li {
+	font-size: 75%;
+}
+
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    */
+@media
+only
+screen
+and
+(min-width:960px)
+{
+/* styles for browsers larger than 960px; */
+.popover {
+	max-width: 50%;
+}
+
+#passwordrequirements {
+	max-width: 90%;
+}
+/* 	.container .jumbotron {
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	} */
+}
+@media only screen and (min-width:1440px) {
+	/* styles for browsers larger than 1440px; */
+	.popover {
+		max-width: 50%;
+	}
+	#passwordrequirements {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (min-width:2000px) {
+	/* for sumo sized (mac) screens */
+	.popover {
+		max-width: 50%;
+	}
+	#passwordrequirements {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (max-device-width:480px) {
+	/* styles for mobile browsers smaller than 480px; (iPhone) */
+	.popover {
+		max-width: 50%;
+	}
+	#passwordrequirements {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (device-width:768px) {
+	/* default iPad screens */
+	.popover {
+		max-width: 50%;
+	}
+	#passwordrequirements {
+		max-width: 90%;
+	}
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width:
+	1024px) and (orientation:portrait) {
+	/* For portrait layouts only */
+	.popover {
+		max-width: 50%;
+	}
+	#passwordrequirements {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width:
+	1024px) and (orientation:landscape) {
+	/* For landscape layouts only */
+	.popover {
+		max-width: 50%;
+	}
+	#passwordrequirements {
+		max-width: 90%;
+	}
+}
+.group {
+	border: 1px solid #003263;
+	padding: 2px;
+	border-radius: 6px;
+	max-width: 100%;
+}
+.error{
+	color: #FB3A3A;
+}
+
+.mfaclose:hover, .mfaclose:focus, .agencyclose:hover, .agencyclose:focus  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.mfaclose ,.agencyclose {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
