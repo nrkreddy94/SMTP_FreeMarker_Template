@@ -1,2 +1,2 @@
-# smtp
-sending email with free marker template
+### SMTP_FreeMarker_Template
+Sending email with Freemarker template from spring apllication.
